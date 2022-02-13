@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif; /*change to roboto*/
+  border: thick dashed yellowgreen;
+  box-sizing: border-box;
+}
+
+img {
+  width: 320px;
+  height: 240px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+/*header flex*/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: thick solid goldenrod;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 10px;
+  border: thick dotted red;
+  align-items: center;
+  gap: 12px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration-line: none;
+}
+/*subtxt*/
+
+.subtxt {
+  display: flex;
+}
+
+.divsubtxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+/*gallery*/
+.gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: thick solid goldenrod;
+  gap: 24px;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.imgdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+}
+
+/*aside*/
+aside {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+}
+
+h4 {
+  align-self: flex-end;
+}
+
+/*call*/
+.call {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 48px;
+  border: thick solid goldenrod;
+}
+
+.call2 {
+  display: flex;
+  padding: 24px 48px;
+  gap: 48px;
+}
+
+.but1 {
+  padding: 12px 36px;
+  border: thin solid #f9faf8;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 12px;
+  margin-top: 48px;
+  margin-bottom: 49px;
+}
+
+/*styles finished*/
+header,
+.subtxt,
+footer {
+  background-color: #1f2937;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+a,
+footer {
+  color: #f9faf8;
+}
+
+h2 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.psubtxt {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.but0,
+.but1,
+.call2 {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.but0 {
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  max-width: fit-content;
+  padding: 8px 24px;
+}
+
+aside {
+  background-color: #e5e7eb;
+}
+
+.paside {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic; /*light italic?*/
+}
