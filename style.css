@@ -2,114 +2,120 @@
   padding: 0;
   margin: 0;
   font-family: "Times New Roman", Times, serif; /*change to roboto*/
-  border: thick dashed yellowgreen;
   box-sizing: border-box;
 }
 
 img {
-  width: 320px;
-  height: 240px;
+  width: 160px;
+  height: 160px;
 }
 
 body {
   display: flex;
   flex-direction: column;
-}
-/*header flex*/
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: thick solid goldenrod;
+  height: 100vh;
 }
 
 nav {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  padding: 10px;
-  border: thick dotted red;
+  justify-content: space-between;
+  padding: 24px 120px;
+}
+.h1 {
+  display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 24px;
 }
 
 ul {
+  list-style-type: none;
   display: flex;
   flex-direction: row;
-  gap: 12px;
-  list-style-type: none;
+  gap: 24px;
+  align-items: center;
 }
 
 a {
   text-decoration-line: none;
 }
-/*subtxt*/
 
 .subtxt {
   display: flex;
+  justify-content: space-between;
+  padding: 24px 120px;
+  flex-wrap: wrap;
 }
-
-.divsubtxt {
+.divleft {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  justify-content: space-around;
-  gap: 12px;
-}
-
-/*gallery*/
-.gallery {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  border: thick solid goldenrod;
   gap: 24px;
 }
 
-figure {
+.img0 {
+  width: 360px;
+  height: 240px;
+  max-width: 100%;
+  border: none;
+}
+
+/*border: medium solid green;
+border: medium dashed red;
+border: medium dotted tan;*/
+/*gallery*/
+.gallery {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+h3 {
+  margin-bottom: 24px;
+}
+
+.imgsdiv {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 24px;
 }
 
 .imgdiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 200px;
 }
 
 img {
+  width: 190px;
+  height: 190px;
+  border: thick solid #3882f6;
+  border-radius: 8px;
 }
 
 /*aside*/
 aside {
   display: flex;
+  padding: 96px 240px;
   flex-direction: column;
-  padding: 48px;
 }
 
 h4 {
-  align-self: flex-end;
+  text-align: right;
 }
 
 /*call*/
 .call {
   display: flex;
   justify-content: center;
-  gap: 48px;
-  padding: 48px;
-  border: thick solid goldenrod;
+  padding: 96px 120px;
 }
 
 .call2 {
   display: flex;
-  padding: 24px 48px;
+  padding: 48px 96px;
   gap: 48px;
+  border-radius: 8px;
 }
 
-.but1 {
-  padding: 12px 36px;
-  border: thin solid #f9faf8;
+.divcall {
 }
 
 /*footer*/
@@ -117,9 +123,9 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 12px;
-  margin-top: 48px;
-  margin-bottom: 49px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
 }
 
 /*styles finished*/
@@ -164,13 +170,14 @@ h3 {
 }
 
 .but0 {
-  border-radius: 20%;
-  -webkit-border-radius: 20%;
-  -moz-border-radius: 20%;
-  -ms-border-radius: 20%;
-  -o-border-radius: 20%;
+  border-radius: 8px;
   max-width: fit-content;
   padding: 8px 24px;
+}
+.but1 {
+  border-radius: 8px;
+  padding: 16px 36px;
+  text-align: center;
 }
 
 aside {
