@@ -42,7 +42,7 @@ a {
 .subtxt {
   display: flex;
   justify-content: space-between;
-  padding: 24px 120px 96px;
+  padding: 24px 120px;
   flex-wrap: wrap;
 }
 .divleft {
@@ -111,19 +111,11 @@ h4 {
 .call2 {
   display: flex;
   padding: 48px 96px;
-  gap: 96px;
+  gap: 48px;
   border-radius: 8px;
 }
 
-h5 {
-  font-size: 32px;
-  font-weight: bold;
-}
 .divcall {
-}
-
-.pcall {
-  font-size: 18px;
 }
 
 /*footer*/
@@ -181,15 +173,11 @@ h3 {
   border-radius: 8px;
   max-width: fit-content;
   padding: 8px 24px;
-  text-align: center;
-  font-size: 24px;
 }
 .but1 {
   border-radius: 8px;
-  padding: 12px 36px;
+  padding: 16px 36px;
   text-align: center;
-  font-size: 24px;
-  border: medium solid #f9faf8;
 }
 
 aside {
