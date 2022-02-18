@@ -111,7 +111,7 @@ h4 {
 .call2 {
   display: flex;
   padding: 48px 96px;
-  gap: 48px;
+  gap: 96px;
   border-radius: 8px;
 }
 
@@ -157,6 +157,15 @@ h3 {
   color: #1f2937;
 }
 
+h5 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.pcall {
+  font-size: 16px;
+}
+
 .psubtxt {
   color: #e5e7eb;
   font-size: 18px;
@@ -178,6 +187,8 @@ h3 {
   border-radius: 8px;
   padding: 16px 36px;
   text-align: center;
+  border: medium solid #f9faf8;
+  font-size: 24px;
 }
 
 aside {
